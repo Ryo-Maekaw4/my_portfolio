@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  basePath: process.env.GITHUB_ACTIONS ? '/your-repo-name' : '',
+  basePath: process.env.GITHUB_ACTIONS ? '/my-portfolio' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
